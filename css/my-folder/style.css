@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("tom and jerry.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.container .card {
+    width: 40vw;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50pc rgba(0,0,0,1);
+}

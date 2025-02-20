@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+
+
+* {
+    font-family:'Jura' ;
+    color: black;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgb(43, 45, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    color: #fff;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop </title>
+</head>
+<body>
+
+    <style>
+        input {
+            padding: 12px;
+            font-size: larger;
+        }
+    </style>
+
+    <h1 id="eventTeller">Nothing</h1>
+    <h1 id="myItem" draggable="true">ITEM</h1>
+
+    <input class="dropzone" placeholder="Drop here">
+
+    <script>
+
+        let eventTeller = document.querySelector("#eventTeller");
+        let myItem = document.querySelector("#myItem");
+        let dropzone = document.querySelector(".dropzone");
+
+        myItem.addEventListener("dragstart", function () {
+            eventTeller.innerHTML = "A user is dragging an item";
+        })
+
+        dropzone.addEventListener("dragover", function (event) {
+            event.preventDefault();
+            eventTeller.innerHTML = "Something is above us";
+        })
+
+        dropzone.addEventListener("drop", function (event) {
+            event.preventDefault();
+            eventTeller.innerHTML = "Something dropped";
+        })
+       
+        
+    </script>
+    
+</body>
+</html>

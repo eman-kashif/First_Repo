@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./JAVASCRIPT_ Objects_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>JAVASCRIPT: Objects</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col">
+        <form action="http://127.0.0.1:5500/index.html">
+        <h1 class="text-center">Simple App</h1>
+        <div class="mb-3">
+            <label class="form-label">First name           </label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Period</label>
+            <input type="text" class="form-control" id="Period" placeholder="Enter Period">
+        </div>
+
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button" id="btnsubmit">Submit</button>
+            
+          </div>
+        </form>
+    </div>
+
+          <div class="col">
+          <table class="table">
+            <thead class="table-info">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">P.M Name</th>
+                <th scope="col">Period</th>
+              </tr>
+            </thead>
+            <tbody id="listHolder"><tr>     
+          <td>1</td>
+          <td>Liaqat Ali </td>
+          <td>1947 - 1951</td>                </tr><tr>     
+          <td>2</td>
+          <td>Khawaja Nazimuddin Nazimuddin</td>
+          <td>1951 - 1953</td>                </tr><tr>     
+          <td>3</td>
+          <td>Muhammad Ali Bogra</td>
+          <td>1953 - 1955</td>                </tr><tr>     
+          <td>4</td>
+          <td>Chaudhry Muhammad Ali</td>
+          <td>1955 - 1956</td>                </tr><tr>     
+          <td>5</td>
+          <td>Hussain Shaheed </td>
+          <td>1956 - 1957</td>                </tr><tr>     
+          <td>6</td>
+          <td>Ibrahim Ismail Chundrigar</td>
+          <td>1957-1957</td>                </tr><tr>     
+          <td>7</td>
+          <td>Malik Feroz Khan Noon</td>
+          <td>1957-1958</td>                </tr><tr>     
+          <td>8</td>
+          <td>Sir Nurul Amin</td>
+          <td>1971-1971</td>                </tr><tr>     
+          <td>9</td>
+          <td>Zulfikar Ali Bhutto</td>
+          <td>1973-1977</td>                </tr></tbody>
+          </table>
+        </div>
+        </div>
+    </div>
+      
+
+    
+
+      <script src="./JAVASCRIPT_ Objects_files/bootstrap.bundle.min.js.download" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./JAVASCRIPT_ Objects_files/app.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: aqua;
+    width:260px;
+    height: 250px;
+    padding: 10px;
+    border:15px solid rgb(247, 1, 1) ;
+    box-sizing: border-box;
+}
+
+.box2 {
+    background-color: rgb(46, 238, 56);
+    width:260px;
+    height: 250px;
+    padding: 10px;
+    border:15px solid rgb(73, 14, 235) ;
+}
+input, button {
+    
+    width: 100%;
+}

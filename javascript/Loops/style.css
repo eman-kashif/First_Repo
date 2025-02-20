@@ -1,0 +1,82 @@
+body {
+    background-image: url("tom and jerry.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.container {
+    /* box-sizing: border-box;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgba(252, 4, 87, 0.89);
+    
+    
+}
+
+ .container #displayArea {
+    
+    background-image: url("tom and jerry3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 25px 25px 50px rgb(15, 15, 15);
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-top: 2px solid rgb(230, 222, 222) ;
+    /* border-left: 2px solid rgb(248, 238, 238); */
+    backdrop-filter: blur;
+
+ }
+
+ .container h3 {
+    text-align: center;
+    font-size: 12px;
+ }
+
+ .controls {
+    display: block;
+ }
+
+ #inputbox {
+    padding: 10px;
+    border-radius: 30px;
+    width: 30%;
+    margin-right: 5px;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+ }
+
+#inputbox:focus {
+   outline: none;
+}
+
+ #myBtn {
+    border: none;
+    padding: 15px;
+    background-color: blue;
+    
+    border-radius: 15px;
+    color: white;
+  } 
+#myBtn:hover {
+    color: blue;
+    background: white;
+    cursor: pointer;
+}

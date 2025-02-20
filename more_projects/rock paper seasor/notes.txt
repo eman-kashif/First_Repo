@@ -1,0 +1,21 @@
+Math.random(){
+    yay function 0 aur one l darmiyan mukhtalif values generate krta hay. For example : 0.55347996547867
+    or
+    0.32456576768756
+    etc
+
+    but agr hmay values 0 say 2 k darmiyan chahiyay to hm "Math.random()*3"use krain gay
+
+    isi trah agr hmay 0 say 3 k darmiyan chahiyay to hm "Math.random()*4" usr krain gay.
+
+    isi trah jesay jesay brhta jay ga hm 1 no agay say Math.random ko multiply krain gay.
+    like hmain 0 say 9 tk values generate krni hain to hm "Math.random()*10"use krain gay
+
+    hm Math.random() ko jis number say multiply krain gay us say aik number phlay tk values generate kr sktain hay
+
+    Agr hm decimal values htana chahain to hm"Math.floor(Math.random()); use krain gay is say decimal k bghair values ain gi
+
+    jeasy 0 ,1 
+    aur agr kisi number say multiply ho ga jeasy "Math.floor(Math.random()*8);" hay to values 0 say 7 k darmiyan values generate houn gi
+    like 0 4 3 7 6 2 5 etc
+}
